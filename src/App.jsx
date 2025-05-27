@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import './App.css';
 
 function App() {
-  const targetDate = new Date("June 7, 2025 19:20:00").getTime();
+  const targetDate = new Date("June 7, 2025 00:00:00").getTime();
   const [isEid, setIsEid] = useState(false);
   const [timeLeft, setTimeLeft] = useState(getInitialTime());
 
